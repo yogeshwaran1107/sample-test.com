@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"
-<meta name="viewport"content="width=device-width,intial scale=1.0">
-<title>sample web page </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Top 5 Movies</title>
 </head>
 <body>
-<h2>welcome to my web site</h2>
-<main>
-<section>
-<h3>i leart to create web site using coursera</h3>
-</section>
+    <nav>
+        <ul>
+            <li><a href="#one">Jump to #1</a></li>
+            <li><a href="#two">Jump to #2</a></li>
+            <li><a href="#three">Jump to #3</a></li>
+            <li><a href="#four">Jump to #4</a></li>
+            <li><a href="#five">Jump to #5</a></li>
+        </ul>
+    </nav>
 
-<section>
+    <main>
+        <div>
+            <h1>Top 5 movies of all time</h1>
+            <ol>
+                <li>
+                    <figure id="one">
+                        <img src="spiderman wallpaper.jpg" alt="spiderman into the spider verse poster" width="75%">
+                        <figcaption>The Spiderman into the spiderverse (1994)</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure id="two">
+                        <img src="images/godfather.jpg" alt="Movie poster for the Godfather" width="75%">
+                        <figcaption>The Godfather (1972)</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure id="three">
+                        <img src="images/darkknight.jpg" alt="Movie poster for the Dark Knight" width="75%">
+                        <figcaption>The Dark Knight (2008)</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure id="four">
+                        <img src="images/godfather2.jpg" alt="Movie poster for the Godfather Part II" width="75%">
+                        <figcaption>The Godfather Part II</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure id="five">
+                        <img src="images/12angrymen.jpg" alt="Movie poster for 12 Angry Men" width="75%">
+                        <figcaption>12 Angry Men (1957)</figcaption>
+                    </figure>
+                </li>
+            </ol>
+        </div>
 
-<P> there are tgs lke section tag ,paragraph tag,to list use list tags
-<br>ul tag to under line and much more </p>
-<h3>review for how coursera is </h3>
-<li>it is beginer friendly</li>
-<li>easy to under stand</li>
-<li>free valuable courses</li>
-</section>
-<footer>for more information visit<a href="wwww.coursera.org">coursera</a>
-</footer>
+    </main>
 </body>
 </html>
